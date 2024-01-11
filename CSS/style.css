@@ -1,0 +1,14 @@
+body{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.Top__Nav__section {
+    height: 70px;
+}
+
+.Top__Nav__section .Nav__container div select{
+    border: none;
+    outline:none;
+}
