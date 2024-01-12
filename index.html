@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Linking StyleSheet -->
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/utilities.css">
     <!-- Linking Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -25,8 +26,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- Linking GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;500;700&family=Rethink+Sans:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alike&family=Comfortaa&family=Dancing+Script&family=Delicious+Handrawn&family=Krub&family=Lobster&family=Montserrat:wght@300&family=Playfair+Display&family=Poppins:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
@@ -60,11 +63,11 @@
                 class="d-flex flex-wrap flex-lg-row flex-sm-column mt-1 flex-md-column list-unstyled text-white"
                 style="margin-left: 45%"
               >
-                <li class="ms-4 float-sm-start">My account</li>
-                <li class="ms-4 float-sm-start">Wishlist</li>
-                <li class="ms-4 float-sm-start">Shopping</li>
-                <li class="ms-4 float-sm-start">Cart</li>
-                <li class="ms-4 float-sm-start">Checkout</li>
+                <li class="ms-4 float-sm-start list__hover">My account</li>
+                <li class="ms-4 float-sm-start list__hover">Wishlist</li>
+                <li class="ms-4 float-sm-start list__hover">Shopping</li>
+                <li class="ms-4 float-sm-start list__hover">Cart</li>
+                <li class="ms-4 float-sm-start list__hover">Checkout</li>
               </ul>
             </div>
           </div>
@@ -101,12 +104,12 @@
                     >Home</a
                   >
                 </li>
-                <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link text-black" href="#">Category</a>
+                <li class="nav-item ms-md-4 ms-sm-3 ">
+                  <a class="nav-link text-black Link__hover" href="#">Category</a>
                 </li>
 
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black position-relative"
+                  <a class="nav-link disabled text-black position-relative Link__hover"
                     >Latest
                     <div
                       class="position-absolute top-0 end-0 bg bg-danger ps-1 pe-1 text-white rounded-1"
@@ -117,13 +120,13 @@
                   >
                 </li>
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black">Blog</a>
+                  <a class="nav-link disabled text-black Link__hover">Blog</a>
                 </li>
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black">Pages</a>
+                  <a class="nav-link disabled text-black Link__hover">Pages</a>
                 </li>
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black">Contact</a>
+                  <a class="nav-link disabled text-black Link__hover">Contact</a>
                 </li>
               </ul>
               <form
@@ -188,12 +191,30 @@
       </section>
 
       <!-- Creating the hero section -->
-      <section class="Hero__section mh-100 w-100 position-relative">
-        <img src="./Assets/images/hero/hero_man.png" alt="surprised__woman" style="height: 650px;left: 180px;" class="position-absolute top-0">
-        <div>
-          <p>
-            
+      <section
+        class="Hero__section h-100 w-100 position-relative d-flex flex-row flex-wrap"
+      >
+        <img
+          src="./Assets/images/hero/hero_man.png"
+          alt="surprised__woman"
+          style="height: 650px; margin-left: 50px"
+          class="mh-100 mw-100"
+        />
+        <div style="margin-left: 20%; margin-top: 8%">
+          <p
+            style="
+              font-family: 'Dancing Script', cursive;
+              color: rgb(0, 140, 255);
+              font-size: 30px;
+              font-weight: 600;
+            "
+          >
+            60% Discount
           </p>
+          <p style="font-family: 'Playfair Display', serif; font-size: 80px;font-weight: 800;">
+            Winter <br />Collection
+          </p>
+          <p style="font-family: 'Playfair Display', serif;font-style: italic;">Best Cloth Collection By 2020</p>
         </div>
       </section>
     </header>
