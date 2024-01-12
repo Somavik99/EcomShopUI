@@ -1,21 +1,36 @@
-body{
-    width:100%;
-    height:100%;
-    box-sizing: border-box;
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .Top__Nav__section {
-    height: 70px;
+  height: 70px;
 }
 
-.Top__Nav__section .Nav__container div select{
-    border: none;
-    outline:none;
+.Top__Nav__section .Nav__container div select {
+  border: none;
+  outline: none;
 }
 
-.Hero__section{
-    border: 1px solid black;
-    height: 35vw;
-    background-image: url("../Assets/images/hero/h1_hero.jpg");
-    object-fit: cover;
+.Hero__section {
+  height: 650px;
+  box-sizing: border-box;
+  background-image: url("../Assets/images/hero/h1_hero.jpg");
+  object-fit: cover;
+}
+
+/* header{
+    position: relative;
+} */
+
+header .Bot__Nav__section{
+    z-index: 1000;
+    position: sticky;
+    top: 1px;
+
+}
+header .Bot__Nav__section .Navbar__Bot{
+    background-color: rgba(255, 255, 255, 0.348);
+    backdrop-filter: blur(10px);
 }
