@@ -12,3 +12,10 @@ body{
     border: none;
     outline:none;
 }
+
+.Hero__section{
+    border: 1px solid black;
+    height: 35vw;
+    background-image: url("../Assets/images/hero/h1_hero.jpg");
+    object-fit: cover;
+}
