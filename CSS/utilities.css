@@ -33,3 +33,7 @@
   background-color: darkred;
   color: white;
 }
+
+.mix__blend__mode{
+    mix-blend-mode: multiply;
+}
