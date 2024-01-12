@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Linking StyleSheet -->
     <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="stylesheet" href="./CSS/utilities.css">
+    <link rel="stylesheet" href="./CSS/utilities.css" />
     <!-- Linking Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alike&family=Comfortaa&family=Dancing+Script&family=Delicious+Handrawn&family=Krub&family=Lobster&family=Montserrat:wght@300&family=Playfair+Display&family=Poppins:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alike&family=Comfortaa&family=Dancing+Script&family=Delicious+Handrawn&family=Krub&family=Lobster&family=Montserrat:wght@300&family=Playfair+Display&family=Playfair+Display+SC:wght@400;700;900&family=Poppins:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
@@ -104,12 +104,15 @@
                     >Home</a
                   >
                 </li>
-                <li class="nav-item ms-md-4 ms-sm-3 ">
-                  <a class="nav-link text-black Link__hover" href="#">Category</a>
+                <li class="nav-item ms-md-4 ms-sm-3">
+                  <a class="nav-link text-black Link__hover" href="#"
+                    >Category</a
+                  >
                 </li>
 
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black position-relative Link__hover"
+                  <a
+                    class="nav-link disabled text-black position-relative Link__hover"
                     >Latest
                     <div
                       class="position-absolute top-0 end-0 bg bg-danger ps-1 pe-1 text-white rounded-1"
@@ -126,7 +129,9 @@
                   <a class="nav-link disabled text-black Link__hover">Pages</a>
                 </li>
                 <li class="nav-item ms-md-4 ms-sm-3">
-                  <a class="nav-link disabled text-black Link__hover">Contact</a>
+                  <a class="nav-link disabled text-black Link__hover"
+                    >Contact</a
+                  >
                 </li>
               </ul>
               <form
@@ -192,15 +197,15 @@
 
       <!-- Creating the hero section -->
       <section
-        class="Hero__section h-100 w-100 position-relative d-flex flex-row flex-wrap"
+        class="Hero__section h-100 w-100 position-relative d-flex flex-row flex-wrap justify-content-center overflow-hidden"
       >
         <img
           src="./Assets/images/hero/hero_man.png"
           alt="surprised__woman"
-          style="height: 650px; margin-left: 50px"
+          style="height: 35vw; margin-left: 20px"
           class="mh-100 mw-100"
         />
-        <div style="margin-left: 20%; margin-top: 8%">
+        <div style="margin-left: 20%; margin-top: 5%">
           <p
             style="
               font-family: 'Dancing Script', cursive;
@@ -211,12 +216,136 @@
           >
             60% Discount
           </p>
-          <p style="font-family: 'Playfair Display', serif; font-size: 80px;font-weight: 800;">
+          <p
+            style="
+              font-family: 'Playfair Display', serif;
+              font-size: 5vw;
+              font-weight: 800;
+              margin-top: -8%;
+            "
+          >
             Winter <br />Collection
           </p>
-          <p style="font-family: 'Playfair Display', serif;font-style: italic;">Best Cloth Collection By 2020</p>
+          <p
+            style="
+              font-family: 'Playfair Display', serif;
+              font-style: italic;
+              margin-top: -6%;
+            "
+          >
+            Best Cloth Collection By 2020
+          </p>
+          <button class="btn btn-primary rounded-5">Shop Now</button>
         </div>
       </section>
     </header>
+
+    <!-- Main Body Starts Here -->
+    <main>
+      <h1
+        style="
+          font-family: 'Playfair Display ', serif;
+          font-size: 2.5vw;
+          font-weight: 700;
+        "
+        class="text-center mt-4"
+      >
+        Shop By Category
+      </h1>
+
+      <div
+        class="d-flex flex-row justify-content-center flex-wrap column__row__gap mt-4"
+      >
+        <div class="position-relative rounded-2">
+          <img
+            src="./Assets/images/categori/cat1.jpg"
+            class="rounded-2 card__hover"
+            alt="Category1"
+            style="
+              height: 250px;
+              box-shadow: 7px 3px 14px -2px rgba(0, 0, 0, 0.75);
+            "
+          />
+          <section class="position-absolute" style="top: 90px; left: 270px">
+            <div class="fs-3" style="font-family: 'Playfair Display ', serif">
+              Owmen's
+            </div>
+            <div class="New__deals">Best New Deals</div>
+            <p
+              style="
+                margin-top: -10%;
+                font-family: 'Dancing Script', cursive;
+                color: rgb(0, 140, 255);
+                font-size: 19px;
+                font-weight: 800;
+              "
+            >
+              New Collection
+            </p>
+          </section>
+        </div>
+        <div class="position-relative ">
+          <img
+            src="./Assets/images/categori/cat2.jpg"
+            class="rounded-2 card__hover"
+            alt="Category2"
+            style="
+              height: 250px;
+              box-shadow: 7px 3px 14px -2px rgba(0, 0, 0, 0.75);
+            "
+          />
+          <section class="position-absolute top-50" style="left: 260px">
+            <div
+              style="
+                margin-top: -10%;
+                font-family: 'Dancing Script', cursive;
+                color: rgb(0, 140, 255);
+                font-size: 19px;
+                font-weight: 800;
+              "
+              class="text-center"
+            >
+              Discount
+            </div>
+            <div
+              style="font-family: 'Playfair Display ', serif; font-weight: 600"
+              class="fs-4"
+            >
+              Winter Cloth
+            </div>
+
+            <p class="text-center">New Collection</p>
+          </section>
+        </div>
+        <div class="position-relative">
+          <img
+            src="./Assets/images/categori/cat3.jpg"
+            style="
+              height: 250px;
+              box-shadow: 7px 3px 14px -2px rgba(0, 0, 0, 0.75);
+            "
+            class="rounded-2 card__hover"
+            alt="Category3"
+          />
+          <section class="position-absolute top-50" style="left: 240px">
+            <div class="fs-3" style="font-family: 'Playfair Display ', serif">
+              Man'S Cloth
+            </div>
+            <div class="New__deals">Best New Deals</div>
+            <p
+              style="
+                margin-top: -10%;
+                font-family: 'Dancing Script', cursive;
+                color: rgb(0, 140, 255);
+                font-size: 19px;
+                font-weight: 800;
+              "
+            >
+              New Collection
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
