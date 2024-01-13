@@ -37,3 +37,8 @@
 .mix__blend__mode{
     mix-blend-mode: multiply;
 }
+
+.Font__styles__decoration{
+  font-family: 'Playfair Display ', serif;
+  font-weight: 800;
+}

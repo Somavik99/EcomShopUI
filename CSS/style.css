@@ -20,6 +20,7 @@ body {
   height: 650px;
   box-sizing: border-box;
   background-image: url("../Assets/images/hero/h1_hero.jpg");
+  background-repeat: no-repeat;
   object-fit: cover;
 }
 
@@ -42,3 +43,9 @@ main ul li a{
   color: black;
 }
 
+main .Main__Banner__top{
+  background-image: url("../Assets/images/categori/card.png");
+  object-fit:fill;
+  height: 700px;
+  margin-top:15%;
+}
