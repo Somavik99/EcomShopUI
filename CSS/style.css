@@ -1,9 +1,10 @@
 body {
-  width: 100%;
+  width: auto;
   height: 100%;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .Top__Nav__section {
