@@ -47,6 +47,6 @@ main ul li a{
 main .Main__Banner__top{
   background-image: url("../Assets/images/categori/card.png");
   object-fit:fill;
-  height: 700px;
+  height: 600px;
   margin-top:15%;
 }
