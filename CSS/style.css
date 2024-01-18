@@ -49,3 +49,7 @@ main .Main__Banner__top{
   height: 600px;
   margin-top:15%;
 }
+
+li{
+  cursor: pointer;
+}
